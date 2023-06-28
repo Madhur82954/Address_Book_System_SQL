@@ -15,3 +15,7 @@ insert into Address_Book_System values('manan','goel','jkhaskjdh','kurukshetra',
 --UC4--
 update Address_Book_System set first_name='ankur',last_name='goel',city='samalakha' where first_name='vishal';
 select * from Address_Book_System;
+
+--UC5--
+delete from Address_Book_System where first_name='ankur';
+select * from Address_Book_System;
