@@ -11,3 +11,7 @@ insert into Address_Book_System values('vishal','garg','kashdj','karnal','Haryan
 insert into Address_Book_System values('ankit','kumar','ashdkja','chandigarh','punjab',872346,7812382789,'123hji@gmail.com');
 insert into Address_Book_System values('naman','single','ajksdjahd','mohali','punjab',987834,9829822323,'pkl123@gmail.com');
 insert into Address_Book_System values('manan','goel','jkhaskjdh','kurukshetra','Haryana',982734,2837483489,'lpasd@gmail.com@gmail.com');
+
+--UC4--
+update Address_Book_System set first_name='ankur',last_name='goel',city='samalakha' where first_name='vishal';
+select * from Address_Book_System;
