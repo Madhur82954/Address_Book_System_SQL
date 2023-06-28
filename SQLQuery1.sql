@@ -27,3 +27,6 @@ select * from Address_Book_System where state='punjab';
 --UC7--
 select count(city) as totalcontact from Address_Book_System;
 select count(state) as totalcontacts from Address_Book_System;
+
+--UC8--
+select * from Address_Book_System where state='punjab' order by(first_name);
