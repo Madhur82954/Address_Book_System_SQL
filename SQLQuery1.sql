@@ -19,3 +19,7 @@ select * from Address_Book_System;
 --UC5--
 delete from Address_Book_System where first_name='ankur';
 select * from Address_Book_System;
+
+--UC6--
+select * from Address_Book_System where city='panipat';
+select * from Address_Book_System where state='punjab';
